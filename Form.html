@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Form</title>
+<body>
+
+<form action="form.php" method="post" enctype="multipart/form-data" accept-chars
+et="UTF-8">
+  <fieldset>
+    Eesnimi:<br>
+    <input type="text" name="eesnimi">
+    <br>
+    Perekonnanimi:<br>
+    <input type="text" name="perekonnanimi">
+  </fieldset>
+
+
+
+    <input type="radio" name="sugu" value="Mees" chacked> Mees
+    <br>
+    <input type="radio" name="sugu" value="Naine"> Naine
+    <br></br>
+
+
+<textarea name="kirjeldus" rows="4" cols="50">
+</textarea>
+<br></br>
+
+  <select name="autod">
+    <option value="Volvo">Volvo</option>
+    <option value="Saab">Saab</option>
+    <option value="Fiat">Fiat</option>
+    <option value="Audi">Audi</option>
+  </select>
+  <br></br>
+
+  <input type="file" name="fileupload" accept="image/*">
+  <br></br>
+
+  <input type="checkbox" name="masin" value="Mootorratas">Mootorratas<br>
+  <input type="checkbox" name="masin" value="Auto">Auto
+  <br></br>
+  <input type="submit">
+  <br></br>
+</form>
+
+</body>
+</html>
+
+
