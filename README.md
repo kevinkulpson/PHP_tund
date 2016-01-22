@@ -1,3 +1,0 @@
-# PHP_tund
-
-PLEASE SEND HELP!!!!
