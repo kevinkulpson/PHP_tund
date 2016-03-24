@@ -7,7 +7,7 @@
 <body>
 <div class="collapse navbar-collapse" id="bs-navbar-collapse">
 	<ul class="nav navbar-nav">
-		<li><a href="form.html">Küsimused</a></li>
+		<li><a href="form.html">KÃ¼simused</a></li>
 		<li><a href="index.php">Vastused</a></li>
 	</ul>
 </div>
@@ -28,7 +28,7 @@
 		<td width=60>
 	</tr>
 	<?php
-	require_once("api.php");
+	require_once("db-api.php");
 	$items = list_API();
 	foreach ((array) $items as $key => $item) {
 		if ($item != NULL){
