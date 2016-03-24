@@ -1,17 +1,17 @@
 <?php
-require_once("api.php");
+require_once("db-api.php");
 $item = vaata_API($_GET["key"]);
 ?>
 <!DOCTYPE html>
 <html lang="et">
 <head>
-  <title>Küsimused</title>
+  <title>KÃ¼simused</title>
   <meta charset="utf-8">
 </head>
 <body>
 <div class="collapse navbar-collapse" id="bs-navbar-collapse">
 	<ul class="nav navbar-nav">
-		<li><a href="form.html">Küsimused</a></li>
+		<li><a href="form.html">KÃ¼simused</a></li>
 		<li><a href="index.php">Vastused</a></li>
 	</ul>
 </div>
@@ -40,7 +40,7 @@ $item = vaata_API($_GET["key"]);
   </select>
 </div>
 	<div class="radio">
-		<strong>Kana või muna:</strong><br>
+		<strong>Kana vÃµi muna:</strong><br>
   <label><input type="radio" name="ans4" value="ans4" checked>Kana</label>
   <label><input type="radio" name="ans4" value="ans4">Muna</label>
    </div><br>
