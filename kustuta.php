@@ -1,5 +1,5 @@
 <?php
-require_once("api.php");
+require_once("db-api.php");
 $item = vaata_API($_GET["key"]);
 kustuta_API($item);
 ?>
@@ -12,7 +12,7 @@ kustuta_API($item);
 <body>
 <div class="collapse navbar-collapse" id="bs-navbar-collapse">
 	<ul class="nav navbar-nav">
-		<li><a href="form.html">Küsimused</a></li>
+		<li><a href="form.html">KÃ¼simused</a></li>
 		<li><a href="index.php">Vastused</a></li>
 	</ul>
 </div>
