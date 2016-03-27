@@ -24,15 +24,15 @@ $item = vaata_API($_GET["key"]);
     </div>
 	<div class="form-group">
       <label for="name">Sinu nimi:</label>
-      <input name="ans1" type="text" class="form-control" id="ans1" value="<?=$item["arg1"]?>">
+      <input name="ans1" type="text" class="form-control" id="ans1" value="<?=$item["ans1"]?>">
     </div>
 	<div class="form-group">
       <label for="comment">Kirjuta endast:</label>
-       <textarea name="ans2" class="form-control" rows="5" id="ans2"><?=$item["arg2"]?></textarea>
+       <textarea name="ans2" class="form-control" rows="5" id="ans2"><?=$item["ans2"]?></textarea>
     </div>
 	 <div class="form-group">
   <label for="sel1">Vali suvaline arv:</label>
-  <select name="ans3" class="form-control" id="arg3">
+  <select name="ans3" class="form-control" id="ans3">
     <option>7</option>
     <option>43</option>
     <option>69</option>
